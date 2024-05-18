@@ -1,0 +1,108 @@
+header.header-tools {
+    position: unset !important;
+    margin-top: 20px;
+}
+
+.sidebar {
+    display: block;
+}
+
+.sidebar>li>a {
+    direction: rtl;
+    border-right: none;
+    border-left: 2px solid var(--theme-color);
+    text-transform: capitalize;
+    color: #000;
+    font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1920 - 320)));
+    border: none;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    border-radius: 0;
+    background-color: #f8f8f8;
+    cursor: pointer;
+}
+
+.sidebar>li>a.active,
+.sidebar>li>a:hover {
+    border: none;
+    border-right: 2px solid var(--theme-color);
+    border-radius: 0;
+    color: var(--theme-color);
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.sidebar>li {
+    display: block;
+}
+
+.profile_icon_edit {
+    width: 130px;
+    text-align: left;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.profile_icon_edit>button {
+    padding: 4px 9px;
+}
+
+.profile_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-outline-success {
+    background-color: #ffffffb5;
+}
+
+.onhover-show-div li {
+    padding-left: 20px !important;
+    padding-right: 0 !important;
+}
+
+.onhover-show-div li:hover {
+    border: none;
+    border-bottom: 1px solid var(--theme-color);
+    border-radius: 0;
+    transition: all 0.2s ease;
+}
+
+.onhover-dropdown {
+    min-width: 190px;
+}
+
+.swal2-actions>button {
+    margin-right: 12px;
+    margin-left: 12px;
+    border-radius: 8px;
+    min-height: 40px;
+    min-width: 85px;
+}
+
+#modal_change_password input {
+    border-radius: 0px 8px 8px 0px !important;
+}
+
+#modal_change_password .show_password , #recaptcha {
+    border-radius: 8px 0px 0px 8px !important;
+    display: inline-flex;
+    align-items: center;
+}
+
+.captcha {
+    display: inline-flex;
+    vertical-align: middle;
+    text-align: center;
+}
+
+div#captcha {
+    display: inline-flex;
+}
+canvas{
+    /* width: 120px;
+    height: 40px; */
+}

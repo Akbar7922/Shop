@@ -1,0 +1,29 @@
+.link-section>li>a {
+    color: white !important;
+}
+
+.mega-menu .full-mega-menu .sm-nowrap {
+    background-color: #FF5722;
+    border-radius: 10px;
+    color: white !important;
+}
+
+.footer-contant {
+    color: white;
+}
+
+.onhover-show-div li {
+    padding-left: 20px !important;
+    padding-right: 0 !important;
+}
+
+.onhover-show-div li:hover {
+    border: none;
+    border-bottom: 1px solid var(--theme-color);
+    border-radius: 0;
+    transition: all 0.2s ease;
+}
+
+.onhover-dropdown {
+    min-width: 190px;
+}
